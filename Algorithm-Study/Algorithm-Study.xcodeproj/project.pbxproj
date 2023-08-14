@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0386F5422A88E4330030B335 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0386F5412A88E4330030B335 /* main.swift */; };
+		036D9FBD2A8A373C0005C428 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036D9FBC2A8A373C0005C428 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		036D9FBA2A8A369B0005C428 /* BJ2588.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJ2588.swift; sourceTree = "<group>"; };
+		036D9FBC2A8A373C0005C428 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0386F5352A88BAC60030B335 /* Algorithm-Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm-Study"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0386F5382A88BAC60030B335 /* BOJ2741.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ2741.swift; sourceTree = "<group>"; };
-		0386F5412A88E4330030B335 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0386F5382A88BAC60030B335 /* BJ2741.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJ2741.swift; sourceTree = "<group>"; };
+		0386F5412A88E4330030B335 /* BJ1924.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJ1924.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,10 @@
 		0386F5372A88BAC60030B335 /* Algorithm-Study */ = {
 			isa = PBXGroup;
 			children = (
-				0386F5382A88BAC60030B335 /* BOJ2741.swift */,
-				0386F5412A88E4330030B335 /* main.swift */,
+				0386F5382A88BAC60030B335 /* BJ2741.swift */,
+				0386F5412A88E4330030B335 /* BJ1924.swift */,
+				036D9FBA2A8A369B0005C428 /* BJ2588.swift */,
+				036D9FBC2A8A373C0005C428 /* main.swift */,
 			);
 			path = "Algorithm-Study";
 			sourceTree = "<group>";
@@ -123,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0386F5422A88E4330030B335 /* main.swift in Sources */,
+				036D9FBD2A8A373C0005C428 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
