@@ -1,5 +1,5 @@
 //
-//  2921.swift
+//  BJ2921.swift
 //  Algorithm-Study
 //
 //  Created by KJ on 2023/08/24.
