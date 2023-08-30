@@ -8,23 +8,17 @@
 import Foundation
 
 let octalNum = readLine()!
-var binaryArr: [Int] = []
+var binaryArr: [String] = ["000", "001", "010", "011", "100", "101", "110", "111"]
+var result: [String] = []
 
-for num in octalNum.reversed() {
-    if var n = Int(String(num)) {
-        for _ in 0..<3 {
-            binaryArr.append(Int(n) % 2)
-            n /= 2
-        }
+for num in octalNum {
+    if let intValue = Int(String(num)) {
+        result.append(binaryArr[intValue])
     }
 }
 
-for _ in 0..<binaryArr.count {
-    if binaryArr.last == 0 {
-        binaryArr.removeLast()
-    } else {
-        break
-    }
-}
+var temp = Int(result[0])
+result[0] = String(temp ?? 0)
 
-print(binaryArr.reversed().map { String($0) }.joined())
+print(result.map { String($0)}.joined())
+
