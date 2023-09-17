@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0398452A2AB4390C000C3B9D /* BOJ1978.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039845292AB4390C000C3B9D /* BOJ1978.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		0386F5332A88BAC60030B335 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,6 +31,7 @@
 		0386F5412A88E4330030B335 /* BJ1924.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJ1924.swift; sourceTree = "<group>"; };
 		039845262AB43887000C3B9D /* BOJ1789.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1789.swift; sourceTree = "<group>"; };
 		039845292AB4390C000C3B9D /* BOJ1978.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1978.swift; sourceTree = "<group>"; };
+		0398452B2AB6E7B8000C3B9D /* BOJ11653.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ11653.swift; sourceTree = "<group>"; };
 		03C1214C2A9C927300837011 /* BOJ1934.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ1934.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				039845292AB4390C000C3B9D /* BOJ1978.swift */,
+				0398452B2AB6E7B8000C3B9D /* BOJ11653.swift */,
 			);
 			path = week4;
 			sourceTree = "<group>";
@@ -175,7 +173,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0398452A2AB4390C000C3B9D /* BOJ1978.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
